@@ -105,8 +105,7 @@ py -m uvicorn main:app --reload
 4. API Documentation
 
 Open a browser and go to:
-
-http://127.0.0.1:8000/docs
+http://127.0.0.1:8000/docs#/
 
 Swagger UI provides interactive documentation for all available endpoints.
 
