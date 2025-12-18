@@ -1,26 +1,16 @@
-\# Dosa Restaurant REST API
+Dosa Restaurant REST API
 
-
-
-\## Project Overview
+Project Overview
 
 This project is a REST API backend for a fictional Dosa Restaurant, built using FastAPI and SQLite.
 
-The API provides full CRUD (Create, Read, Update, Delete) functionality for customers, items,
+The API provides full CRUD (Create, Read, Update, Delete) functionality for customers, items and orders.
 
-and orders.
-
-
-
-The application uses a relational SQLite database with primary and foreign key constraints to
-
-maintain data integrity between customers, items, and orders.
-
-
+The application uses a relational SQLite database with primary and foreign key constraints to maintain data integrity between customers, items, and orders.
 
 ---
 
-\## Technologies Used
+Technologies Used
 
 \- Python 3
 
@@ -32,13 +22,9 @@ maintain data integrity between customers, items, and orders.
 
 \- Git / GitHub
 
-
-
 ---
 
-
-
-\## Project Structure
+Project Structure
 
 exercise\_7/
 
@@ -52,17 +38,12 @@ exercise\_7/
 
 └── README.md
 
-
-
 ---
 
+\ Database Design
 
 
-\## Database Design
-
-
-
-\### Customers Table
+Customers Table
 
 \- id (Primary Key)
 
@@ -72,7 +53,7 @@ exercise\_7/
 
 
 
-\### Items Table
+Items Table
 
 \- id (Primary Key)
 
@@ -82,7 +63,7 @@ exercise\_7/
 
 
 
-\### Orders Table
+Orders Table
 
 \- id (Primary Key)
 
@@ -92,81 +73,48 @@ exercise\_7/
 
 \- quantity
 
-
-
 ---
 
+\Setup Instructions
 
 
-\## Setup Instructions
-
-
-
-\### 1. Install Dependencies
+1. Install Dependencies
 
 Run the following command to install required packages:
 
-
-
 py -m pip install fastapi uvicorn
-
-
 
 ---
 
-
-
-\### 2. Initialize the Database
+2. Initialize the Database
 
 This script creates the SQLite database and populates it using example\_orders.json.
 
-
-
 py init\_db.py
-
-
 
 ---
 
-
-
-\### 3. Run the Application
+3. Run the Application
 
 Start the FastAPI server using:
 
-
-
 py -m uvicorn main:app --reload
-
-
 
 ---
 
-
-
-\### 4. API Documentation
+4. API Documentation
 
 Open a browser and go to:
 
-
-
 http://127.0.0.1:8000/docs
-
-
 
 Swagger UI provides interactive documentation for all available endpoints.
 
-
-
 ---
 
+\API Endpoints
 
-
-\## API Endpoints
-
-
-
-\### Customers
+\Customers
 
 \- POST /customers
 
@@ -178,7 +126,7 @@ Swagger UI provides interactive documentation for all available endpoints.
 
 
 
-\### Items
+\Items
 
 \- POST /items
 
@@ -190,7 +138,7 @@ Swagger UI provides interactive documentation for all available endpoints.
 
 
 
-\### Orders
+\Orders
 
 \- POST /orders
 
@@ -204,24 +152,17 @@ Swagger UI provides interactive documentation for all available endpoints.
 
 ---
 
-
-
 \## Version Control
 
 This project is hosted on GitHub and uses Git for version control.
 
 The repository contains multiple commits demonstrating incremental development progress.
 
-
-
 ---
 
-
-
-\## Author
+\Author
 
 Hinal Prabhu
-
 IS 601 – Final Project
 
 
